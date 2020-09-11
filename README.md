@@ -6,9 +6,9 @@ Configure your <b>http</b> routes to <b>Https</b> through nginx & certbot <br><b
 
 Certbot installation
 
-<b>sudo add-apt-repository ppa:certbot/certbot
-sudo apt update -y
-sudo apt install python-certbot-nginx -y </b>
+<b>sudo add-apt-repository ppa:certbot/certbot <br>
+sudo apt update -y <br>
+sudo apt install python-certbot-nginx -y </b><br>
 
 * Usage 
  <b>certbot -d domain.com <br>
