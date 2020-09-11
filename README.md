@@ -1,5 +1,5 @@
 # Nginx-reverse-proxy
-Configure your http routes to Httpsthrough nginx & certbot <br><br>
+Configure your <b>http</b> routes to <b>Https</b> through nginx & certbot <br><br>
 
 
 
