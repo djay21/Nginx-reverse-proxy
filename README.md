@@ -6,7 +6,7 @@ sudo apt update -y
 sudo apt install python-certbot-nginx -y </b>
 
 * Usage 
- <b>certbot -d domain.com 
+ <b>certbot -d domain.com <br>
 #certbot -d domain.com --register-unsafely-without-email</b>
 
 * you will get your certs under this directory --> <b>/etc/letsencrypt/live/domain.com/ </b>
