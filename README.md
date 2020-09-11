@@ -1,17 +1,17 @@
 # Nginx-reverse-proxy
 Certbot installation
 
-sudo add-apt-repository ppa:certbot/certbot
+<b>sudo add-apt-repository ppa:certbot/certbot
 sudo apt update -y
-sudo apt install python-certbot-nginx -y
+sudo apt install python-certbot-nginx -y </b>
 
 * Usage 
- certbot -d domain.com 
-#certbot -d domain.com --register-unsafely-without-email
+ <b>certbot -d domain.com 
+#certbot -d domain.com --register-unsafely-without-email</b>
 
 * you will get your certs under this directory --> <b>/etc/letsencrypt/live/domain.com/ </b>
 
-* Update your certs path & domain name in "/etc/nginx/sites-available/default"
+* Update your certs path & domain name in <b>"/etc/nginx/sites-available/default"</b>
 
 * Restart your nginx service 
-systemctl restart nginx
+<b>systemctl restart nginx </b>
