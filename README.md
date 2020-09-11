@@ -1,4 +1,9 @@
 # Nginx-reverse-proxy
+Configure your http routes to Httpsthrough nginx & certbot <br><br>
+
+
+
+
 Certbot installation
 
 <b>sudo add-apt-repository ppa:certbot/certbot
