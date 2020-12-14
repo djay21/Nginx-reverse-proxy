@@ -11,7 +11,7 @@ Configure your <b>http</b> routes to <b>Https</b> through nginx & certbot <br><b
 4. Generate your Certificates, from the certbot command.
 
 * Usage 
- <b>certbot certonly --manual --register-unsafely-without-email <br>
+ <b>certbot certonly --manual --register-unsafely-without-email </b><br>
  it will prompt you for inputs, Just Accept it and enter your DNS NAME.<br>
  follow the steps you got on your terminal, like creating a file and having some alphanumeric key on it ( static server file access )
  
