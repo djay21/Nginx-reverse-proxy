@@ -4,7 +4,7 @@ Configure your <b>http</b> routes to <b>Https</b> through nginx & certbot <br><b
 1. Clone this Repo <br><br>
 
 2. For Certbot and other dependencies installations, use the ssl.sh script
-<br> bash ssh.sh <br><br>
+<br><b> bash ssh.sh </b><br><br>
 
 3. Open another terminal and Run <b> node index.js </b> <br><br>
 
