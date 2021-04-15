@@ -18,7 +18,7 @@ Configure your <b>http</b> routes to <b>Https</b> through nginx & certbot <br><b
  Make sure you have 80,443 ports publicly accessible on that vm.
  afte few seconds,<br>
 * you will get your certs generated under this directory or right on your terminal( dir path ) --> <b>/etc/letsencrypt/live/domain.com/ </b>
-* Update your certs path & domain name in <b>"certificates folder"</b> in the cloned repo
+* Update your certs path & domain name in nginx.conf file
 
 Note: Upto this step, the process can be run on any other machine having 80,443 port access of your machine in which you want to set up https.
 
