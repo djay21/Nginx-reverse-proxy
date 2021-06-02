@@ -31,4 +31,9 @@ Note: Upto this step, the process can be run on any other machine having 80,443 
 6. if you want to server more than one port on https, copy paste the server ssl {} and paste it again in the production.conf file and edit your proxy_pass port of another service. <br><br>
 
 7. RUN your nginx.exe, /usr/bin/nginx or docker container in order to start your nginx server <br>.
-  
+
+
+## Check the certificate expiry 
+
+ openssl s_client -servername $server -connect $server:443 | openssl x509 -noout -dates
+ openssl x509 -enddate -noout -in fullchain.pem
